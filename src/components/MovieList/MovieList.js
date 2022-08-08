@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/MovieList.css';
+import '../MovieList/MovieList.css';
+
 const MovieList = (props) => {
     return (
         <>
