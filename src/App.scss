@@ -2,9 +2,16 @@ body{
   background: #141414;
   color: #ffffff;
 }
-.movie-app > .row {
-  overflow-x: auto;
-  flex-wrap: nowrap;
+.movie-app {
+  .row {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    .movie-frame {
+      width: auto;
+    }
+  }
 }
 .row::-webkit-scrollbar {
   display: none;
@@ -21,8 +28,10 @@ body{
   transform: scale(1.1);
 }
 
-.image-container:hover .overlay{
-  opacity: 1;
+.image-container:hover {
+  .overlay{
+    opacity: 1;
+  }
 }
 
 .overlay {
@@ -38,6 +47,8 @@ body{
   display: flex;
 }
 
-.overlay span{
-  margin: 0 auto;
+.overlay {
+  span{
+    margin: 0 auto;
+  }
 }

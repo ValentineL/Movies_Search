@@ -5,7 +5,7 @@ import MovieListHeading from './components/MovieListHeading/MovieListHeading';
 import SearchBox from './components/SearchBox/SeachBox';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 
 function App() {
     const [movies, setMovies] = useState([])
